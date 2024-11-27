@@ -28,11 +28,11 @@
 ## Setup Instructions
 ### Prerequisites
 
-- Ensure the following are installed on your machine:
+### Ensure the following are installed on your machine:
 
-### Node.js (v16 or later)
-### MongoDB (local or hosted, e.g., MongoDB Atlas)
-### Git (optional, for cloning the repository)
+- Node.js (v16 or later)
+- MongoDB (local or hosted, e.g., MongoDB Atlas)
+- Git (optional, for cloning the repository)
 
 ## Installation
   ### Clone the repository:
@@ -72,7 +72,7 @@
 
 ### .env
   ```bash
-    MONGO_URI=mongodb+srv://zinotrust123:<password>@mern.nglolsj.mongodb.net/Auth-App?retryWrites=true&w=majority
+    MONGO_URI="your mongodb uri"
     NODE_ENV=development
     JWT_SECRET="secretkey"
 
